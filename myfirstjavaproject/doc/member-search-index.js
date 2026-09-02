@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.javaproject","c":"Nullify","l":"main(String[])","u":"main(java.lang.String[])","k":"6"},{"p":"com.javaproject","c":"Nullify","l":"Nullify()","u":"%3Cinit%3E()","k":"3"}];updateSearchResults();
