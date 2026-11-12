@@ -31,13 +31,14 @@ public class CricketPlayer {
      }
 	public static void main(String[] args) {
 		System.out.println("One Day Internationals data");
+		 System.out.println("--------------------------------------------------------------------");
 		
     CricketPlayer p1=new CricketPlayer();
     p1.playerName="Virat Kohli";
     p1.matchesPlayed=300;
     p1.runsScored=15000;
     p1.fifties=80;
-    p1.ballsPlaced=9000;
+    p1.ballsPlaced=12200;
     
     double avg1=p1.CaluculateAverage(p1.runsScored,p1.matchesPlayed);
     int f1=p1.CalculateTotalFifties(p1.fifties);
@@ -50,7 +51,7 @@ public class CricketPlayer {
     p2.matchesPlayed=325;
     p2.runsScored=12000;
     p2.fifties=50;
-    p2.ballsPlaced=10000;
+    p2.ballsPlaced=11560;
     
     double avg2=p2.CaluculateAverage(p2.runsScored,p2.matchesPlayed);
     int f2=p2.CalculateTotalFifties(p2.fifties);
